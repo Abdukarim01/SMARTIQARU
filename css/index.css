@@ -8,7 +8,7 @@ input,button{border: none; outline: none;}
 
 h1,h2,h3,h4,h5,h6{margin: 0; padding:0;}
 
-.row > div{padding:0px;}
+
 
  #header{width:100%; height:auto;}
 
@@ -115,4 +115,260 @@ h1,h2,h3,h4,h5,h6{margin: 0; padding:0;}
 @media(max-width: 964px){
       .nav1{display:none;}
       #section{display: block;}
+}
+
+
+.right-menu-in{width:60px;
+               height:60px;
+               border-radius:50%;
+               background-color:green;
+               box-shadow:0px 0px 25px -5px gray;
+               transition: all 0.3s;
+               position: fixed;
+               bottom:70px;
+               right:50px;
+               background-image:url(../img/logo1.svg);
+               background-repeat:no-repeat;
+               background-position: center;
+               z-index:1;}
+
+
+
+
+
+
+
+
+
+.bg-logos{
+          width:50px;
+          height:50px;
+          transition: all 0.7s;
+          background-position: center;
+          background-repeat:no-repeat;
+          margin: auto;
+          box-shadow:0px 0px 20px -3px gray;
+          border-radius:50%;}
+
+
+.bg-logos:nth-child(1){
+      margin-top:-98%;
+      background-image:url(../img/logo7.svg);
+}
+
+.bg-logos:nth-child(2){
+      margin-top:-184%;
+      background-image:url(../img/logo6.svg);
+}
+.bg-logos:nth-child(3){
+      margin-top:-181%;
+      background-image:url(../img/logo5.svg);
+}
+.bg-logos:nth-child(4){
+      margin-top:-181%;
+      background-image:url(../img/logo4.svg);
+}
+.bg-logos:nth-child(5){
+      margin-top:-180%;
+      background-image:url(../img/logo3.svg);
+}
+
+
+.linear,.bg{transition: all 0.7s;
+        position: relative;
+        margin-top:-60%;
+        }
+
+
+.describtions{position: relative;
+              top:24%;
+              width:auto;
+              height: auto;
+              display: inline-block;
+              background-color:#4c4c4c;
+              padding:5px 10px;
+              color: white;
+              border-radius:5px;
+              display: none;}
+
+.rotate-blocks{
+      width:15px;
+      height:15px;
+      position:absolute;
+      transform:rotate(45deg);
+      right:-7px;
+      background-color:#4c4c4c;
+      top:7px;}
+
+
+.bg-logos:hover .describtions{display:inline-block;}
+
+.right-menu-in a span{display: block;}
+
+.right-menu-in:hover{box-shadow:0px 0px 25px -2px gray; transition: all 0.3s;}
+
+
+
+.main-logo-block{display:flex;
+                 justify-content: center;
+                 padding:150px 10px 0px 10px;}
+
+.section-main-1{width:100%;
+                height:auto;
+                backrgound-color:white;
+                padding-bottom:120px;}
+
+.main-title-block{text-align: center;
+                  padding:80px 10px 0px 10px;}
+
+.main-title-block>h1{font-weight: bolder;
+                     font-family:arial;
+                     font-size:50px;}
+
+.main-title-block>h2{font-weight: bolder;
+                     font-family:arial;
+                     font-size:32px;
+                     margin-top:20px;}
+
+.contact-block{text-align: center;
+               padding:85px 10px 0px 10px;}
+
+.contact-block a {text-decoration: none;
+                  color:black;
+                  font-size:30px;}
+
+.button-block{display:flex;
+              justify-content: center;
+              padding-top:60px;}
+
+.button-block button{font-weight: bolder;
+                     padding:20px 60px;
+                     border:2px solid black;
+                     background:transparent;
+                     border-radius:50px;
+                     font-size:15px;}
+
+
+@media(max-width:625px){
+
+.main-title-block>h1{font-size:35px;}
+.main-title-block>h2{font-size:20px;}     
+.button-block button{padding:17px 40px;}
+.main-title-block{padding:110px 10px 0px 10px;}
+.contact-block{padding:60px 10px 0px 10px;}
+.button-block{padding-top:50px;}
+}
+
+.section-main-2{padding:190px 0px 50px 0px;
+               background-color:#fffad8;}
+
+.container{padding:0px 5px;}
+
+.main2-title-block{text-align: center;}
+
+.main2-title-block h1{font-weight: bolder;
+                      font-size:32px;}
+
+.main2-title-block p{
+      margin-top:20px;
+      font-size:20px;
+      color: gray;
+} 
+
+.buttons{margin-top:90px;
+      text-align: center;}
+
+.buttons button{
+background: transparent;
+border:1px solid black;
+padding:9px 18px;
+border-radius:50px;
+font-weight: ;
+margin:5px 3px;
+color:black;
+text-decoration: none;
+}
+
+.cols-bg-imgs{width:100%;
+              height:300px;
+              background-size:cover;
+              background-position: center;
+              padding:10px;}
+
+.cols-bg-imgs-1{
+      background-image:url(../img/cols-bg-1.png);
+}
+
+.cols-bg-imgs-2{
+      background-image:url(../img/cols-bg-2.png);
+}
+
+.cols-bg-imgs-3{
+      background-image:url(../img/cols-bg-3.jpg);
+}
+
+.cols-bg-imgs-4{
+      background-image:url(../img/cols-bg-4.png);
+}
+
+.cols-bg-imgs-5{
+      background-image:url(../img/cols-bg-6.png);
+}
+
+.cols-bg-imgs-6{
+      background-image:url(../img/cols-bg-5.png);
+}
+
+
+.cols-bg-imgs div{background-color:rgba(0,0,0,.5);
+                  display:inline-block;
+                  width: auto;
+                  color:white;
+                  font-size:12px;
+                  padding:4px 7px;}
+
+
+.describtions-main{
+      width:100%;
+      height:315px;
+      background-color:white;
+      padding:15px 25px;
+}
+
+.describtions-main h4{line-height:25px; letter-spacing:0.5px;}
+
+.describtions-main p {line-height:22px; color:gray;}
+
+
+.load_more_btn-block{display: flex;
+                     justify-content: center;
+                     margin-top:50px;}
+
+.load_more_btn-block button{background-color: rgb(255, 118, 0);
+                            padding:20px 70px;
+                            border-radius:50px;
+                            color:white;
+                             font-weight: bold;}
+
+@media(max-width:995px){
+      .main-logo-block{display: none;}
+      .right-menu-in{display:none;}
+      .section-main-1{padding-bottom:50px;}
+      .describtions-main{height:auto;}
+      .cols-bg-imgs{height:450px;
+                    background-size:100% 100%;
+                    background-position: center;
+                     background-repeat:no-repeat;}
+}
+
+@media(max-width: 625px){
+      .section-main-2{padding:100px 0px 50px 0px;}
+      .main2-title-block p{font-size:17px;}
+      .buttons button{font-size:12px; padding:6px 15px;}
+      .load_more_btn-block button{padding:20px 40px;}
+}
+
+@media(max-width:560px){
+    .cols-bg-imgs{height:65vw;
+                  background-size: cover;}  
 }
